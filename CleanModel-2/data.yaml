@@ -1,0 +1,28 @@
+names:
+- Aircraft Carrier
+- Auxiliary Ships
+- Cargo
+- Commander
+- Container Ship
+- Cruiser
+- Destroyer
+- Dock
+- Frigate
+- Hovercraft
+- Landing
+- Oil Tanker
+- Other Ship
+- Other Warship
+- RoRo
+- Submarine
+- Yacht
+nc: 17
+roboflow:
+  license: CC BY 4.0
+  project: cleanmodel
+  url: https://universe.roboflow.com/aerial-ship-detection-backdoor/cleanmodel/dataset/2
+  version: 2
+  workspace: aerial-ship-detection-backdoor
+test: ../test/images
+train: ../train/images
+val: ../valid/images
